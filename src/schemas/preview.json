@@ -1,0 +1,47 @@
+{
+  "ref": {
+    "type": "boolean",
+    "default": true
+  },
+  "resize": {
+    "type": "boolean",
+    "default": true
+  },
+  "defaultSize": {
+    "type": "object",
+    "properties": {
+      "width": {
+        "type": "number"
+      },
+      "height": {
+        "type": "number"
+      },
+      "maxWidth": {
+        "type": "number"
+      },
+      "maxHeight": {
+        "type": "number"
+      },
+      "minWidth": {
+        "type": "number"
+      },
+      "minHeight": {
+        "type": "number"
+      },
+
+    }
+  },
+  "defaultChildren": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "required": true
+        },
+        "props": "#/refs/weiget/${name}/propsOptins"
+      }
+    }
+  }
+}

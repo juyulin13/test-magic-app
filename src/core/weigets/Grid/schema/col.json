@@ -1,0 +1,20 @@
+{
+  "name": "Col",
+  "title": "网格",
+  "propsType": {
+    "type": "object",
+    "properties": {
+      "span": {
+        "type": "number",
+        "default": 1
+      }
+    }
+  },
+  "previewOption": {
+    "ref": true,
+    "resize": true,
+    "defaultSize": {
+    },
+    "hasClassName": true
+  }
+}

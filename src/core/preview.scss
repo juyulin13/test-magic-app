@@ -1,0 +1,21 @@
+.preview-weiget-wrapper {
+  border: 0.5px dashed ;
+  border-color: rgba(0,0,0,.85);
+  &.active {
+    border: 2px dashed #91d5ff;
+  }
+  position: relative;
+  .drag-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.container-preview {
+  border: 0.5px dashed ;
+  border-color: rgba(0,0,0,.85);
+  &.active {
+    border: 2px dashed #91d5ff;
+  }
+}

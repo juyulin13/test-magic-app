@@ -1,0 +1,25 @@
+{
+  "name": "Row",
+  "title": "网格布局",
+  "propsType": {
+    "type": "object",
+    "properties": {
+      "gutter": {
+        "type": "number",
+        "title": "栅格间隔"
+      },
+      "justify": {
+        "type": "enum",
+        "title": "水平排列方式",
+        "enum": ["start", "end", "center", "space-around", "space-between"] 
+      },
+      "wrap": {
+        "type": "boolean",
+        "default": true
+      }
+    }
+  },
+  "previewOptions": {
+    
+  }
+}
