@@ -96,19 +96,10 @@ class NodeeStore {
 
 }
 
-export default () => {
-  const [nodes, setNodes] = useState(new NodeeStore({
-    id: 'root',
+interface PreviewProps {
+  value: any
+}
 
-    title: '根节点',
-    children: []
-  }))
-  const [cards, setCards] = useState([]);
-
-  return (
-    <App />
-
-  )
-
- 
-};
+export const Preview: React.FC<PreviewProps> = ({value}) => {
+  return createWeiget(value)()
+}

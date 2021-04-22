@@ -1,6 +1,6 @@
 import React from 'react';
 import { WegetSelectArea } from '../../components'
-import Preview from '../../core/preview/container'
+import { Preview } from '../../core/preview/container'
 
 export default () => {
   const weigetDatasource=  [{
@@ -24,7 +24,6 @@ export default () => {
         <WegetSelectArea dataSource={weigetDatasource} />
       </div>
       <div style={{width: 'calc(100vw - 700px)'}}>
-        <Preview />
       </div>
       <div style={{width: '400px'}}>
         <WegetSelectArea dataSource={weigetDatasource} />
