@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import * as _ from 'lodash';
 import classnames from 'classnames';
 import Frame from 'react-frame-component';
-import { createWeiget, App } from '../createWeiget'
+import { createWeiget } from '../createWeiget'
 
 import styles from './index.module.scss';
 import { OpenAPIV3 } from '../types/schema';

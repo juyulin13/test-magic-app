@@ -8,7 +8,7 @@
 import { lazy } from 'react';
 export default [{
   exact: true,
-  path: "/editor",
+  path: "/",
   component: lazy(() => import(/* webpackChunkName: "editor" */ /* webpackPrefetch: true */ './pages/Editor'))
 }
 ]
